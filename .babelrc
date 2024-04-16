@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "pages": "./src/pages",
+          "components": "./src/components",
+          "theme": "./src/theme"
+        }
+      }
+    ]
+  ]
+}
